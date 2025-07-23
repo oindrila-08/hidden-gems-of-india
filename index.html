@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Gems of India | Explore Beyond the Map</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Hidden Gems of India</div>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#booking">Book Now</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO Section with Carousel -->
+    <section id="hero">
+        <div class="carousel">
+            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=1000&q=80" alt="Majuli Island" class="carousel-img active">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80" alt="Gurez Valley" class="carousel-img">
+            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1000&q=80" alt="Dholavira" class="carousel-img">
+            <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1000&q=80" alt="Tawang" class="carousel-img">
+            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1000&q=80" alt="Chettinad" class="carousel-img">
+            <button class="carousel-btn prev">&#10094;</button>
+            <button class="carousel-btn next">&#10095;</button>
+        </div>
+        <div class="hero-content">
+            <h1>Discover India's Hidden Wonders</h1>
+            <p>Curated journeys to secret corners, majestic valleys, ancient cities, and cultural heartlands. Explore, experience, and remember forever.</p>
+            <div class="featured-photos">
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=400&q=80" alt="Traveler 1">
+                    <div class="rating">4.9 ★</div>
+                </div>
+                <div class="photo-card">
+                    <img src="https://naturewalkers.in/wp-content/uploads/2018/06/agumbe-hemant-nature-walkers.jpg" alt="Traveler 2">
+                    <div class="rating">5.0 ★</div>
+                </div>
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=400&q=80" alt="Traveler 3">
+                    <div class="rating">4.8 ★</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seasonal Destinations Section -->
+    <section id="destinations">
+        <h2>Explore by Season</h2>
+        <div class="seasons">
+            <div class="season-card" data-season="spring">
+                <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Spring">
+                <span>Spring</span>
+            </div>
+            <div class="season-card" data-season="summer">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Summer">
+                <span>Summer</span>
+            </div>
+            <div class="season-card" data-season="monsoon">
+                <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Monsoon">
+                <span>Monsoon</span>
+            </div>
+            <div class="season-card" data-season="winter">
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=400&q=80" alt="Winter">
+                <span>Winter</span>
+            </div>
+        </div>
+        <div class="season-destinations" id="season-destinations">
+            <!-- JS will inject destination cards here -->
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews">
+        <h2>What Our Travelers Say</h2>
+        <div class="reviews-container">
+            <!-- JS will inject reviews here -->
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking">
+        <h2>Book Your Adventure</h2>
+        <form id="booking-form">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <label for="package">Select Tour Package</label>
+            <select id="package" required>
+                <!-- JS will inject package options -->
+            </select>
+            <label for="date">Preferred Start Date</label>
+            <input type="date" id="date" required>
+            <label for="guests">Number of Guests</label>
+            <input type="number" id="guests" min="1" max="10" required>
+            <button type="submit">Book Now</button>
+        </form>
+        <div id="booking-success" class="hidden">Thank you! Your booking has been received.</div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <span>© 2025 Hidden Gems of India. Crafted with ❤️ for explorers.</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
