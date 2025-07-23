@@ -1,6 +1,4 @@
-# hidden-gems-of-india
-A fully responsive frontend travel-themed webpage built using HTML, CSS, and JavaScript – no external frameworks.
-Hidden Gems of India – A Frontend Web Project
+# Hidden Gems of India
 
 **A fully responsive, travel-themed webpage built with pure HTML, CSS, and JavaScript — no frameworks used.**
 
@@ -37,6 +35,6 @@ This project celebrates India's lesser-known yet breathtaking travel destination
 - **JavaScript (ES6)**
 
 ---
-**License**
+**License**:
 This project is open-source and free to use for educational or non-commercial purposes.
 
